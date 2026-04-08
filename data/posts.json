@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Welcome to My Blog",
+    "date": "2026-04-08",
+    "content": "This is the first post on the blog. Add new posts using the Create Post page."
+  },
+  {
+    "title": "Getting Started",
+    "date": "2026-04-08",
+    "content": "Your blog is built with static HTML, CSS, and JavaScript. Posts are stored in localStorage and loaded from sample JSON data."
+  }
+]
