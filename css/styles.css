@@ -41,6 +41,14 @@ header {
   gap: 20px;
 }
 
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -50,6 +58,14 @@ form {
 input, textarea {
   padding: 10px;
   font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
 }
 
 button {
@@ -58,6 +74,8 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 button:hover {
